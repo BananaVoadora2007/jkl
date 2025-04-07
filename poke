@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Pokémon - Mundo dos Pokémons</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Bem-vindo ao Mundo dos Pokémons</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">Sobre</a></li>
+                <li><a href="#pokemon-list">Pokémons</a></li>
+                <li><a href="#accessibility">Acessibilidade</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about">
+        <h2>O que são os Pokémons?</h2>
+        <p>Pokémon é uma franquia multimídia que inclui jogos, desenhos, filmes e outros produtos. A história gira em torno de treinadores que capturam e treinam criaturas chamadas Pokémon para competições.</p>
+    </section>
+
+    <section id="pokemon-list">
+        <h2>Alguns Pokémons Famosos</h2>
+        <div class="pokemon">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/4/4a/Pokémon_Go_logo.png" alt="Logo do Pokémon" />
+            <p>O Pokémon Pikachu é um dos mais famosos e um dos mascotes da franquia.</p>
+        </div>
+        <div class="pokemon">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Squirtle.png/800px-Squirtle.png" alt="Imagem do Pokémon Squirtle, um Pokémon aquático" />
+            <p>Squirtle é um Pokémon do tipo água e um dos iniciantes da região de Kanto.</p>
+        </div>
+        <div class="pokemon">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Charmander.png/800px-Charmander.png" alt="Imagem do Pokémon Charmander, um Pokémon de fogo" />
+            <p>Charmander é um Pokémon do tipo fogo e um dos iniciais mais populares.</p>
+        </div>
+    </section>
+
+    <section id="accessibility">
+        <h2>Acessibilidade</h2>
+        <p>Este site foi criado com foco na acessibilidade. As imagens possuem descrições alternativas (alt text), que permitem que leitores de tela ajudem as pessoas com deficiência visual a navegar pelo conteúdo.</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Mundo dos Pokémons. Todos os direitos reservados.</p>
+    </footer>
+
+</body>
+</html>
